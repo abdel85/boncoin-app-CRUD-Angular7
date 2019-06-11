@@ -1,0 +1,30 @@
+<div class="col-3 imgAnnonce">
+  <img [src]="annonce.image" />
+</div>
+<div class="col-9 detailAnnonce">
+  <div class="row">
+    <div class="col title">
+      {{annonce.title}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col description">
+      {{annonce.description}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col price">
+      {{annonce.price}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-primary"> <a (click)="delete()">Supprimer</a></button>
+     
+    </div>
+    <div class="col">
+        <button class="btn btn-danger"> <a (click)="update()">Modifier</a> </button>
+
+    </div>
+  </div>
+</div>

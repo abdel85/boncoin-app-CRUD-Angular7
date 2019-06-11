@@ -1,0 +1,14 @@
+.no {
+    text-align: center
+}
+
+.annonce {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: rgb(230, 235, 239) 1px 1px 8px 1px;
+    box-sizing: border-box;
+    color: rgb(26, 26, 26);
+   
+}

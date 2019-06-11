@@ -1,0 +1,16 @@
+<header class="container-fluid">
+  <div class="row align-items-center">
+    <div class="col">
+      <a (click)="start()"><img src="https://www.ladn.eu/wp-content/uploads/2018/03/leboncoin.jpg" /></a>
+    </div>
+    <div class="col">
+      <a routerLink="/add">Déposer une annonce</a>
+    </div>
+    <div class="col">
+      <a routerLink="/">Rechercher</a>
+    </div>
+  </div>
+</header>
+<section class="container">
+  <router-outlet></router-outlet>
+</section>

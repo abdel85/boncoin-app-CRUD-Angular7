@@ -1,0 +1,29 @@
+.imgAnnonce img {
+    width: 100%
+}
+
+.title {
+    box-sizing: border-box;
+    color: rgb(26, 26, 26);
+    cursor: pointer;
+    display: inline;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 600;
+    height: auto;
+    line-height: 24px;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    pointer-events: auto;
+    text-align: left;
+    text-size-adjust: 100%;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    vertical-align: top;
+    width: auto;
+    word-break: break-word;
+    -webkit-box-direction: normal;
+}
